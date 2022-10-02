@@ -3,6 +3,15 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "Roboto Black";
+  src: url(/src/fonts/Roboto-Black.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
 .container {
   position: relative;
   width: 1140px;
@@ -50,7 +59,6 @@ h2.title {
 }
 
 .simple .title_big {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
@@ -66,12 +74,10 @@ h2.title {
   color: #ffffff;
   font-size: 21px;
   font-weight: 300;
-  font-family: "Roboto Light";
   line-height: 28px;
   text-align: center;
 }
 .promo .promo_text span {
-  font-family: "Roboto - Bold";
   font-weight: 700;
   color: #f9bf3b;
 }
